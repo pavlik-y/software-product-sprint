@@ -21,6 +21,7 @@ function addRandomGreeting() {
 
   // Pick a random greeting.
   const greeting = greetings[Math.floor(Math.random() * greetings.length)];
+  console.log(greeting);
 
   // Add it to the page.
   const greetingContainer = document.getElementById('greeting-container');
